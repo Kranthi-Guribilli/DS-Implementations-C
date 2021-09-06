@@ -10,14 +10,14 @@
 
 ## Topics:
 * [Array](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/1-Array.md)
-* [Linked List]()
-  * [Singly Linked List]()
-  * [Doubly Linked List]()
-  * [Circular Linked List]()
-* [Stack]()
-* [Queue]()
-* [Binary Tree]()
-* [Binary Search Tree]()
-* [Heap]()
-* [Hashing]()
-* [Graph]()
+* Linked List
+  * Singly Linked List
+  * Doubly Linked List
+  * Circular Linked List
+* Stack
+* Queue
+* Binary Tree
+* Binary Search Tree
+* Heap
+* Hashing
+* Graph
