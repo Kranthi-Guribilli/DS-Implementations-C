@@ -1,6 +1,8 @@
 # Implementation of an Array:
 # Menu driven program for array operations in C
-## Code snippet:
+<details>
+	<summary>Code snippet:</summary>
+	
 ```c
 #include<stdio.h>
 #define MAXSIZE 40
@@ -97,3 +99,4 @@ void delete(int arr[],int n,int pos,int item){
 	n--;
 }
 ```
+</details>
