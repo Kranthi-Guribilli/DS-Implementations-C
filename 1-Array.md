@@ -1,7 +1,13 @@
 # Implementation of an Array:
 # Menu driven program for array operations in C
+<p>Here we are gonna make a menu-driven program that will perform some important array operations. We will make a different function for each of the array operations.<br>
+Here is a menu-driven program for the following array operations in C<br>
+1. Traversal of the linear array.<br>
+2. Insertion into a linear array<br>
+3. Deletion of the element from a linear array.<br>
+4. Linear Search in C</p>
 <details>
-	<summary>Code snippet:</summary>
+	<summary>Code snippet! <i>(Click to expand)</i></summary>
 	
 ```c
 #include<stdio.h>
