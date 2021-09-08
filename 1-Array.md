@@ -1,5 +1,8 @@
 # Implementation of an Array:
-# Menu driven program for array operations in C
+<details>
+	<summary>1-D Array <i>(Click to expand)</i></summary>
+	
+# Menu driven program for 1-D array operations in C
 <p>Here we are gonna make a menu-driven program that will perform some important array operations. We will make a different function for each of the array operations.<br>
 Here is a menu-driven program for the following array operations in C<br>
 1. Traversal of the linear array.<br>
@@ -106,3 +109,18 @@ void delete(int arr[],int n,int pos,int item){
 }
 ```
 </details>
+	</details>
+	
+# Multidimensional Arrays
+1. Two dimensional array
+	
+	<details>
+		<summary><b><i>Implementation of 2-D Array</b> (Click to expand)</i></summary>
+		<details>
+			
+2. Three dimensional array
+			
+	<details>
+		<summary><b><i>Implementation of 3-D Array</b> (Click to expand)</i></summary>
+		<details>
+	
