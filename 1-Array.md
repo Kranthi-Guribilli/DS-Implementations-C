@@ -1,6 +1,6 @@
-# Implementation of an Array:
+# Linear or One Dimensional Array
 <details>
-	<summary>1-D Array <i>(Click to expand)</i></summary>
+	<summary><b>Implementation of 1-D Array</b> <i>(Click to expand)</i></summary>
 	
 # Menu driven program for 1-D array operations in C
 <p>Here we are gonna make a menu-driven program that will perform some important array operations. We will make a different function for each of the array operations.<br>
@@ -109,18 +109,47 @@ void delete(int arr[],int n,int pos,int item){
 }
 ```
 </details>
-	</details>
+</details>
 	
 # Multidimensional Arrays
-1. Two dimensional array
 	
-	<details>
-		<summary><b><i>Implementation of 2-D Array</b> (Click to expand)</i></summary>
-		<details>
+* Two dimensional array
+	
+<details>
+		<summary><b>Implementation of 2-D Array</b> <i>(Click to expand)</i></summary>
+	
+```c
+#include<stdio.h>
+int main(){
+		int i,j,arr[i][j];
+		printf("Enter the number of columns: ");
+		scanf("%d",&i);
+		printf("Enter the number of rows: ");
+		scanf("%d",&j);
+		printf("Enter elements into the array:\n");
+		for(int a=0;a<i;a++){
+				      for(int b=0;b<j;b++){
+				      	printf("Element[%d][%d]: ",a,b);
+						scanf("%d",&arr[a][b]);
+						}
+			}
+		//print elements of the 2-d array
+		printf("\n2-D Array:\n");
+		for(int k=0;k<i;k++){
+			for(int l=0;l<j;l++){
+				printf("Element[%d][%d]: %d\n",k,l,arr[k][l]);
+			}
+		}
+	
+	}
+```
+	
+</details>
 			
-2. Three dimensional array
+* Three dimensional array
 			
-	<details>
-		<summary><b><i>Implementation of 3-D Array</b> (Click to expand)</i></summary>
-		<details>
+<details>
+		<summary><b>Implementation of 3-D Array</b> <i>(Click to expand)</i></summary>
+	
+</details>
 	
