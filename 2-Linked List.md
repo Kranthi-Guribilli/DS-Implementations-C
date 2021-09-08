@@ -207,3 +207,15 @@ int main(){
 }
 ```
   </details>
+	
+# Doubly Linked List
+<details>
+	<summary><b>Implementation of Doubly Linked List</b> <i>(Click to expand)</i></summary>
+	Yet to be added
+</details>
+	
+# Circular Linked List
+<details>
+	<summary><b>Implementation of Circular Linked List</b> <i>(Click to expand)</i></summary>
+	Yet to be added
+</details>	
