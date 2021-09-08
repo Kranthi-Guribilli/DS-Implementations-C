@@ -144,8 +144,10 @@ void reverseLL(){
 }
 int main(){
 	int choice;
-	while(1){
-	printf("**************MENU**************");
+	char ch='y';
+	do{
+	printf("\tMENU:\n");
+	printf("----------------------------------\n----------------------------------");
 	printf("\n\t1. To see list\n");
 	printf("\t2. For insertion at starting\n");
 	printf("\t3. For insertion at any position\n");
@@ -156,7 +158,7 @@ int main(){
 	printf("\t8. To find the maximum element\n");
 	printf("\t9. To reverse the List\n");
 	printf("\t10. To exit\n");
-	printf("Enter your choice: ");
+	printf("\nEnter your choice: ");
 	scanf("%d",&choice);
 	switch(choice){
 		case 1:
@@ -186,9 +188,15 @@ int main(){
 		case 9:
 			reverseLL();
 			break;
+		case 10:
+			exit(1);
+			break;
 		default:
-			printf("\nWrong Choice");
+			printf("\nWrong Choice");	
 		}
-	}
+		printf("\nDo you want to continue?(y/n): ");
+		scanf("%s",&ch);
+		system("cls");
+	}while(ch=='y');
 	return 0;
 }
