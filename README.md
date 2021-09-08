@@ -13,7 +13,7 @@
 * [Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/Kranthi-Guribilli-patch-1/2-Linked%20List.md)
   * [Singly Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/Kranthi-Guribilli-patch-1/SinglyLinkedList.c)
   * [Doubly Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/Kranthi-Guribilli-patch-1/DoublyLL.c)
-  * Circular Linked List
+  * [Circular Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/Kranthi-Guribilli-patch-1/CircularLL.c)
 * Stack
 * Queue
 * Binary Tree
