@@ -14,7 +14,7 @@
   * [Singly Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/Kranthi-Guribilli-patch-1/SinglyLinkedList.c)
   * [Doubly Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/Kranthi-Guribilli-patch-1/DoublyLL.c)
   * [Circular Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/Kranthi-Guribilli-patch-1/CircularLL.c)
-* Stack
+* [Stack](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/3-Stack.md)
 * Queue
 * Binary Tree
 * Binary Search Tree
