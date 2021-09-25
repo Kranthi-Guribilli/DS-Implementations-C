@@ -1,5 +1,5 @@
 # Implementation of Data Structures using C:
-# About 🚀
+# About: 🚀
 * This repository contains implementation of data structures in C
 * Each data structure has it's own seperate README with related explanations and links for further reading.<br>
 
