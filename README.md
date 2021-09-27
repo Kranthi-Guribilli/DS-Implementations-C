@@ -15,7 +15,7 @@
   * [Doubly Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/DoublyLL.c)
   * [Circular Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/CircularLL.c)
 * [Stack](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/3-Stack.md)
-* Queue
+* [Queue](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/4-Queue.md)
 * Binary Tree
 * Binary Search Tree
 * Heap
