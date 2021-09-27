@@ -1,2 +1,4 @@
 # Queue
-Implementation of Queue //yet to be updated
+<details>
+	<summary><b>Implementation of Queue</b> <i>(Yet to be updated)</i></summary>
+ </details>
