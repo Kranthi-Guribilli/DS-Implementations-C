@@ -1,4 +1,4 @@
-// C program for the above operation
+
 #include <stdio.h>
 #include <stdlib.h>
 
