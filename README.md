@@ -10,7 +10,7 @@
 ## Topics:
 * [Array](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/1-Array.md)
 * [Linked List(Singly, Doubly and Circular singly LL) Implementation](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/2-Linked%20List.md)
-  * [Singly Linked List]()
+  * [Singly Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/edit/main/SinglyLL.md)
   * [Doubly Linked List]()
   * [Circular Linked List]()
 * [Stack](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/3-Stack.md)
