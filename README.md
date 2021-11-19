@@ -9,10 +9,10 @@
 
 ## Topics:
 * [Array](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/1-Array.md)
-* [Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/2-Linked%20List.md)
-  * [Singly Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/SinglyLinkedList.c)
-  * [Doubly Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/DoublyLL.c)
-  * [Circular Linked List](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/CircularLL.c)
+* [Linked List(Singly, Doubly and Circular singly LL) Implementation](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/2-Linked%20List.md)
+  * [Singly Linked List]()
+  * [Doubly Linked List]()
+  * [Circular Linked List]()
 * [Stack](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/3-Stack.md)
 * [Queue](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/4-Queue.md)
 * Binary Tree
