@@ -56,3 +56,19 @@ struct node
         2. Traverse the right subtree, i.e., call Postorder(right-subtree)
         3. Visit the root.
        ```
+* Level Order Traversal | Using function to print a current level[(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/LevelOrder.c)
+  ```
+  Algorithm: (Using Queue) | [(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/LevelOrder_queue.c)
+  
+  For each node, first, the node is visited and then its child nodes are put in a FIFO queue.
+     
+         printLevelorder(tree)
+         1) Create an empty queue q
+         2) temp_node = root /*start from root*/
+         3) Loop while temp_node is not NULL
+               a) print temp_node->data.
+               b) Enqueue temp_node’s children 
+                  (first left then right children) to q
+               c) Dequeue a node from q.
+ 
+  ```
