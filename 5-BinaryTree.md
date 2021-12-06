@@ -56,19 +56,45 @@ struct node
         2. Traverse the right subtree, i.e., call Postorder(right-subtree)
         3. Visit the root.
        ```
-* Level Order Traversal | Using function to print a current level[(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/LevelOrder.c)
-  ```
-  Algorithm: (Using Queue) | [(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/LevelOrder_queue.c)
+* Level Order Traversal
+
+  * Using function to print a current level | [(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/LevelOrder.c)
   
-  For each node, first, the node is visited and then its child nodes are put in a FIFO queue.
-     
-         printLevelorder(tree)
-         1) Create an empty queue q
-         2) temp_node = root /*start from root*/
-         3) Loop while temp_node is not NULL
-               a) print temp_node->data.
-               b) Enqueue temp_node’s children 
-                  (first left then right children) to q
-               c) Dequeue a node from q.
+  
+       ```
+     Algorithm: 
+     There are basically two functions in this method. One is to print all nodes at a given level (printCurrentLevel), and other is to print level order
+     traversal of the tree(printLevelorder). printLevelorder makes use of printCurrentLevel to print nodes at all levels one by one starting from the root.
+
+
+        /*Function to print level order traversal of tree*/
+        printLevelorder(tree)
+        for d = 1 to height(tree)
+        printCurrentLevel(tree, d);
+
+        /*Function to print all nodes at a current level*/
+        printCurrentLevel(tree, level)
+        if tree is NULL then return;
+        if level is 1, then
+        print(tree->data);
+        else if level greater than 1, then
+        printCurrentLevel(tree->left, level-1);
+        printCurrentLevel(tree->right, level-1);
+    ```
  
-  ```
+ * Using Queue | [(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/LevelOrder_queue.c)
+ 
+   ```
+            Algorithm:
+            For each node, first, the node is visited and then its child nodes are put in a FIFO queue.
+     
+                    printLevelorder(tree)
+                    1) Create an empty queue q
+                    2) temp_node = root /*start from root*/
+                    3) Loop while temp_node is not NULL
+                        a) print temp_node->data.
+                        b) Enqueue temp_node’s children 
+                        (first left then right children) to q
+                        c) Dequeue a node from q.
+ 
+   ```
