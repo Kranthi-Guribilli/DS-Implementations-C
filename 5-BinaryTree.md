@@ -25,9 +25,9 @@ struct node
 
 ## Traversals:
 
-* Depth First Traversals
+* [Depth First Traversals](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/DFS.c)
 
-  *  Inorder (Left, Root, Right) | [(CODE_SNIPPET)]()
+  *  Inorder (Left, Root, Right) | [(CODE_SNIPPET)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/Inorder.c)
  
  
      ```
@@ -37,7 +37,7 @@ struct node
       3. Traverse the right subtree, i.e., call Inorder(right-subtree)
      ```
      
-  *  Preorder (Root, Left, Right) | [(CODE_SNIPPET)]()
+  *  Preorder (Root, Left, Right) | [(CODE_SNIPPET)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/Preorder.c)
 
 
      ```
@@ -47,7 +47,7 @@ struct node
       3. Traverse the right subtree, i.e., call Preorder(right-subtree) 
       ```
       
-  *   Postorder (Left, Right, Root) | [(CODE_SNIPPET)]()
+  *   Postorder (Left, Right, Root) | [(CODE_SNIPPET)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/Postorder.c)
 
 
       ```
