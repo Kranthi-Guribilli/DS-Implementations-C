@@ -19,4 +19,4 @@
 * Binary Search Tree
 * Heap
 * Hashing
-* Graph
+* [Graph](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/9-Graph.md)
