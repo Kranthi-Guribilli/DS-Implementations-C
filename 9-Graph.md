@@ -10,5 +10,5 @@
    
 
 ## Traversals:
-   * Breadth First Search | (CODE)
-   * Depth First Search | (CODE)
+   * Breadth First Search | [(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/BFS.c)
+   * Depth First Search | [(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/DFS.c)
