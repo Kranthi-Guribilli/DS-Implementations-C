@@ -11,14 +11,17 @@
     2) Multiplication Method
     3) Mid-Square Method
 ## Collisions:
-* Collisions occur when the hash function maps two different keys to the same location. Two records cannot be stored in the same location of a hash table normally.
-* The method used to solve the problem of collisions is called the collision resolution technique.
+* Since a hash function gets us a small number for a key which is a big integer or string, there is a possibility that two keys result in the same value. 
+* The situation where a newly inserted key maps to an already occupied slot in the hash table is called collision and must be handled using some collision handling technique.
+
 ## Collision Resolution Techniques:
-* Open Addressing
+* Open Addressing:<br>
+(In Open Addressing, all elements are stored in the hash table itself. So at any point, the size of the table must be greater than or equal to the total number of keys (Note that we can increase table size by copying old data if needed). )
   * Linear Probing
   * Quadratic Probing
   * Double Hashing
-* Chaining
+* Seperate Chaining:<br>
+  (The idea is to make each cell of hash table point to a linked list of records that have same hash function value.)
 ![image](https://user-images.githubusercontent.com/79071810/144992291-caa212da-a2fd-474b-8422-a74a79392324.png)
 
 
