@@ -49,4 +49,4 @@
     2) Replace the node with the inorder successor.
     3) Remove the inorder successor from its original position.
    ```
-## Implementation | [(CODE)]()
+## Implementation | [(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/BST.c)
