@@ -15,7 +15,7 @@
   * [Circular Linked List]()
 * [Stack](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/3-Stack.md)
 * [Queue](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/4-Queue.md)
-* [Binary Tree](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/5-Binary Tree.md)
+* [Binary Tree](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/5-BinaryTree.md)
 * Binary Search Tree
 * Heap
 * Hashing
