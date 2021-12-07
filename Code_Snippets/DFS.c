@@ -1,94 +1,104 @@
-// C program for Depth first tree traversals
+// DFS algorithm in C
+
 #include <stdio.h>
 #include <stdlib.h>
 
-/* A binary tree node has data, pointer to left child
-and a pointer to right child */
 struct node {
-	int data;
-	struct node* left;
-	struct node* right;
+  int vertex;
+  struct node* next;
 };
 
-/* Helper function that allocates a new node with the
-given data and NULL left and right pointers. */
-struct node* newNode(int data)
-{
-	struct node* node
-		= (struct node*)malloc(sizeof(struct node));
-	node->data = data;
-	node->left = NULL;
-	node->right = NULL;
+struct node* createNode(int v);
 
-	return (node);
+struct Graph {
+  int numVertices;
+  int* visited;
+
+  // We need int** to store a two dimensional array.
+  // Similary, we need struct node** to store an array of Linked lists
+  struct node** adjLists;
+};
+
+// DFS algo
+void DFS(struct Graph* graph, int vertex) {
+  struct node* adjList = graph->adjLists[vertex];
+  struct node* temp = adjList;
+
+  graph->visited[vertex] = 1;
+  printf("Visited %d \n", vertex);
+
+  while (temp != NULL) {
+    int connectedVertex = temp->vertex;
+
+    if (graph->visited[connectedVertex] == 0) {
+      DFS(graph, connectedVertex);
+    }
+    temp = temp->next;
+  }
 }
 
-/* Given a binary tree, print its nodes according to the
-"bottom-up" postorder traversal. */
-void printPostorder(struct node* node)
-{
-	if (node == NULL)
-		return;
-
-	// first recur on left subtree
-	printPostorder(node->left);
-
-	// then recur on right subtree
-	printPostorder(node->right);
-
-	// now deal with the node
-	printf("%d ", node->data);
+// Create a node
+struct node* createNode(int v) {
+  struct node* newNode = malloc(sizeof(struct node));
+  newNode->vertex = v;
+  newNode->next = NULL;
+  return newNode;
 }
 
-/* Given a binary tree, print its nodes in inorder*/
-void printInorder(struct node* node)
-{
-	if (node == NULL)
-		return;
+// Create graph
+struct Graph* createGraph(int vertices) {
+  struct Graph* graph = malloc(sizeof(struct Graph));
+  graph->numVertices = vertices;
 
-	/* first recur on left child */
-	printInorder(node->left);
+  graph->adjLists = malloc(vertices * sizeof(struct node*));
 
-	/* then print the data of node */
-	printf("%d ", node->data);
+  graph->visited = malloc(vertices * sizeof(int));
 
-	/* now recur on right child */
-	printInorder(node->right);
+  int i;
+  for (i = 0; i < vertices; i++) {
+    graph->adjLists[i] = NULL;
+    graph->visited[i] = 0;
+  }
+  return graph;
 }
 
-/* Given a binary tree, print its nodes in preorder*/
-void printPreorder(struct node* node)
-{
-	if (node == NULL)
-		return;
+// Add edge
+void addEdge(struct Graph* graph, int src, int dest) {
+  // Add edge from src to dest
+  struct node* newNode = createNode(dest);
+  newNode->next = graph->adjLists[src];
+  graph->adjLists[src] = newNode;
 
-	/* first print data of node */
-	printf("%d ", node->data);
-
-	/* then recur on left subtree */
-	printPreorder(node->left);
-
-	/* now recur on right subtree */
-	printPreorder(node->right);
+  // Add edge from dest to src
+  newNode = createNode(src);
+  newNode->next = graph->adjLists[dest];
+  graph->adjLists[dest] = newNode;
 }
 
-/* Driver program to test above functions*/
-int main()
-{
-	struct node* root = newNode(1);
-	root->left = newNode(2);
-	root->right = newNode(3);
-	root->left->left = newNode(4);
-	root->left->right = newNode(5);
+// Print the graph
+void printGraph(struct Graph* graph) {
+  int v;
+  for (v = 0; v < graph->numVertices; v++) {
+    struct node* temp = graph->adjLists[v];
+    printf("\n Adjacency list of vertex %d\n ", v);
+    while (temp) {
+      printf("%d -> ", temp->vertex);
+      temp = temp->next;
+    }
+    printf("NULL\n");
+  }
+}
 
-	printf("\nPreorder traversal of binary tree is \n");
-	printPreorder(root);
+int main() {
+  struct Graph* graph = createGraph(4);
+  addEdge(graph, 0, 1);
+  addEdge(graph, 0, 2);
+  addEdge(graph, 1, 2);
+  addEdge(graph, 2, 3);
 
-	printf("\nInorder traversal of binary tree is \n");
-	printInorder(root);
+  printGraph(graph);
+printf("\n");
+  DFS(graph, 2);
 
-	printf("\nPostorder traversal of binary tree is \n");
-	printPostorder(root);
-
-	return 0;
+  return 0;
 }
