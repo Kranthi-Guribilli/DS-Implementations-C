@@ -1,7 +1,7 @@
 # Implementation of Data Structures using C:
 # About: 🚀
 * This repository contains implementation of data structures in C
-* Each data structure has it's own seperate README with related explanations and links for further reading.<br>
+* Each data structure has it's own seperate README file with related explanations and links for further reading.<br>
 
 
 # Data Structures:
@@ -15,7 +15,7 @@
   * [Circular Linked List]()
 * [Stack](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/3-Stack.md)
 * [Queue](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/4-Queue.md)
-* Binary Tree
+* [Binary Tree](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/5-Binary Tree.md)
 * Binary Search Tree
 * Heap
 * Hashing
