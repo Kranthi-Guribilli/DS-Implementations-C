@@ -1,4 +1,5 @@
 # Hash Tables:
+## Implementation of Hash Table | [(Code_Snippet)]()
 * A hash table is a data structure where data is stored in an associative manner. The data is mapped to array positions by a hash function that generates a unique value from each key.
 * ![image](https://user-images.githubusercontent.com/79071810/144989613-b163ab2b-3967-4f6b-ba77-9d7d8d79fc42.png)
 * The process of mapping the keys to appropriate locations (or indices) in a hash table is called hashing.
@@ -16,7 +17,7 @@
 
 ## Collision Resolution Techniques:
 * Open Addressing:<br>
-(In Open Addressing, all elements are stored in the hash table itself. So at any point, the size of the table must be greater than or equal to the total number of keys (Note that we can increase table size by copying old data if needed). )
+(In Open Addressing, all elements are stored in the hash table itself. So at any point, the size of the table must be greater than or equal to the total number of keys (Note that we can increase table size by copying old data if needed).)
   * Linear Probing
   * Quadratic Probing
   * Double Hashing
