@@ -2,7 +2,7 @@
 
 ## Binary Heap:
 
-* Min Heap | [(CODE)]()
+* Min Heap | [(CODE)](https://gist.github.com/sudhanshuptl/d86da25da46aa3d060e7be876bbdb343#file-output)
 * Max Heap | [(CODE)](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/Code_Snippets/MaxHeap.c)
   * Examples of MIN Heap:
   
