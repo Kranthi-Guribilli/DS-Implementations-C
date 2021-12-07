@@ -17,6 +17,6 @@
 * [Queue](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/4-Queue.md)
 * [Binary Tree](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/5-BinaryTree.md)
 * [Binary Search Tree](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/6-BST.md)
-* Heap
+* [Heap](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/7-Heap.md)
 * Hashing
 * [Graph](https://github.com/Kranthi-Guribilli/DS-Implementations-C/blob/main/9-Graph.md)
